@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "content-engine"
+version = "0.1.0"
+description = "Local, on-demand video production CLI"
+requires-python = ">=3.12"
+dependencies = ["PyYAML>=6,<7"]
+
+[project.scripts]
+content-engine = "content_engine.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

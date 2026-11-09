@@ -1,0 +1,12 @@
+/.tools/
+/.venv/
+/data/
+/.env
+/.env.*
+!/.env.example
+__pycache__/
+*.egg-info/
+*.onnx
+*.onnx.json
+*.mp4
+*.wav

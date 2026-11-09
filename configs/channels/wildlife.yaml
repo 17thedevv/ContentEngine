@@ -1,0 +1,14 @@
+id: wildlife_vi
+name: Wildlife Stories
+language: vi
+niche: wildlife
+video:
+  format: vertical
+  resolution: [1080, 1920]
+  fps: 30
+  target_duration: 60
+storytelling:
+  tone: documentary
+  narrative_structure: [hook, explanation, conclusion]
+publishing:
+  auto_publish: false
